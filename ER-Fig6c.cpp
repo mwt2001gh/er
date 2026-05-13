@@ -38,12 +38,12 @@ static long ra[M + 1], nd;
 #define U 4
 
 //***********sequence****************
-#define ERSEQ  A,C,G,A,A,C,U,G   // The characteristic sequence of an exonuclease ribozyme (ER)
+#define ERSEQ  A,C,G,A,A,C,U,G   // The characteristic sequence of exonuclease ribozyme (ER)
 #define REPSEQ G,A,G,U,C,U,C,U   // The characteristic sequence of RNA replicase ribozyme (REP)
-#define CTSEQ  G,U,G,A,U,C,C,A   // The characteristic sequence of a RNA control species 
+#define CTSEQ  G,U,G,A,U,C,C,A   // The characteristic sequence of an RNA control species 
 #define NCSEQ  G,A,G,U,C,A,C,U   // The characteristic sequence of an assumed noncoding sequence (only 1 nt different from that of REP)
-#define ERNCSEQ ERSEQ,NCSEQ      // The sequence of ER + the noncoding sequence in a big circular genome inoculted in the beginning
-#define CTNCSEQ CTSEQ,NCSEQ      // The sequence of a contol species for the big circular genome inoculted in the beginning
+#define ERNCSEQ ERSEQ,NCSEQ      // The sequence of ER + the noncoding sequence in a circular genome inoculated in the beginning
+#define CTNCSEQ CTSEQ,NCSEQ      // The sequence of a control for the circular genome inoculated in the beginning
 #define ERREPSEQ ERSEQ,REPSEQ    // The sequence of a two-gene circular genome (ER+REP)
 //***********sequence***************
 #define INOCUSEQ  ERNCSEQ   // The inoculated species  
