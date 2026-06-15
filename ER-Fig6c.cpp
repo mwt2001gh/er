@@ -1,5 +1,5 @@
 //"Exonuclease ribozyme encoded in a circular genome: On the initiation of the RNA world"
-//by Minglun Ling, Chunwu Yu, Hongyu Jiang, Wentao Ma*
+//by Minglun Liang, Chunwu Yu, Hongyu Jiang, Wentao Ma*
 //C source codes for the simulation program -- the version corresponds to the case shown in Fig. 6c of the paper
 
 #include "stdafx.h"
